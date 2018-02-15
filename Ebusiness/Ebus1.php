@@ -6,7 +6,6 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        </script>
         
     </head>
     <body>
@@ -38,7 +37,7 @@
             <br/>
             
             <label for="total">
-                Subtotal
+                Total
                 <input type="text" id="total" value="0.00" readonly/>
             </label>
             
