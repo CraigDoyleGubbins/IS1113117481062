@@ -1,0 +1,27 @@
+.mainheading{
+    text-align: center;
+    background-color: #ab000d;
+    font-family: Arial;
+}
+
+/* navbar container */
+.navbar{
+    overflow: hidden;
+    background-color: #ff6f60;
+    font-family: Arial;
+}
+
+.navbar a{
+    float: left;
+    background-color: #e53935;
+    text-decoration: none;
+    color: #000000;
+    font-size: 80%;
+    border: 1px solid #ff6f60;
+    padding: 10px 10px;
+}
+
+.navbar a:hover{
+    background-color: #5c6bc0;
+    color: #ffffff;
+}

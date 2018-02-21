@@ -46,7 +46,6 @@
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         
         </form>
-        
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
         <a rule="button" href="Ebus1.php">Clear Choice</a>
