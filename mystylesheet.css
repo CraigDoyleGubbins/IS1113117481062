@@ -1,0 +1,39 @@
+.mainheading{
+    text-align: center;
+    background-color: #ab000d;
+    font-family: Arial;
+}
+
+/* navbar container */
+.nav{
+    overflow: hidden;
+    background-color: #ff6f60;
+    font-family: Arial;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+  float:left;
+  display:inline;
+  border-radius: 10%;
+  padding: 0px 2px 2px 2px;
+}
+
+.nav a{
+    float: left;
+    background-color: #e53935;
+    text-decoration: none;
+    color: #000000;
+    font-size: 80%;
+    border: 1px solid #ff6f60;
+    padding: 5px 5px;
+}
+
+.nav a:hover{
+    background-color: #5c6bc0;
+    color: #ffffff;
+}

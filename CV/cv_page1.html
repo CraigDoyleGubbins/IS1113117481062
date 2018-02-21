@@ -9,27 +9,36 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
-   </head>
+    </head>
     
     <body>
       
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
           
           <a class="navbar-brand" href="../homepage.html">117481062 IS1113 Project</a>
           
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="../homepage.html">Home</a></li>
-            <li class="nav-item active"><a class="nav-link" href="cv_page1.html">Page 1</a></li>
-            <li class="nav-item"><a class="nav-link" href="cv_page2.html">Page 2</a></li>
-            <li class="nav-item"><a class="nav-link" href="cv_page3.html">Page 3</a></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-link dropdown"><a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="../homepage.html">Homepage</a></li>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="cv_page1.html">Action</a>
+                <a class="dropdown-item" href="cv_page1.html">Another action</a>
+                <a class="dropdown-item" href="cv_page1.html">Something else here</a>
+              </div>
+              <li class="nav-item active"><a class="nav-link" href="cv_page1.html">Page 1</a></li>
+              <li><a class="nav-link" href="cv_page2.html">Page 2</a></li>
+              <li class="nav-item"><a class="nav-link" href="cv_page3.html">Page 3</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     
         <div>
+          
             <h1 class="mainheading">Personal Details</h1>
-        
             <p><strong>Name: </strong>Bruce Wayne</p>
             <p><strong>Date of Birth: </strong>09/03/1999</p>
             <p><strong>Address: </strong>Wayne Manor, Gotham City, USA</p>
