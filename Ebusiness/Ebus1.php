@@ -14,6 +14,7 @@
         </br>
         
         <form method="POST" action="Ebus2.php">
+            
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 Salesforce @ $100
@@ -27,17 +28,46 @@
             </label>
             
             <br/>
+            
+            <label for="googledrive">
+                <input type="radio" id="googledrive" name="product" checked onClick="disablebtnProceed()">
+                Google Drive @ $150
+            </label>
+            
+            <br/>
+            
+            <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()">
+                Cloud 9 @ $200
+            </label>
+            
             <br/>
             
             <label for="subtotal">
-                Subtotal
+                Subtotal:
                 <input type="text" id="subtotal" value="0.00" readonly/>
             </label>
             
             <br/>
             
+            <label for="discount">
+                Discount:
+                <br/>
+                <input type="text" id="discount" name="total" value="0.00" class="inline" readonly/>
+            </label>
+            
+            <br/>
+            
+            <label for="vat">
+                VAT:
+                <br/>
+                <input type="text" id="vat" name="vat" value="0.00" class="inline" readonly/>
+            </label>
+            
+            <br/>
+            
             <label for="total">
-                Total
+                Total:
                 <input type="text" id="total" value="0.00" readonly/>
             </label>
             
