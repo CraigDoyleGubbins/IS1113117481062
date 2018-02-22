@@ -22,23 +22,23 @@
             
             <br/>
             
-            <label for="aws">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
-            </label>
-            
-            <br/>
-            
-            <label for="googledrive">
-                <input type="radio" id="googledrive" name="product" checked onClick="disablebtnProceed()">
-                Google Drive @ $150
-            </label>
-            
-            <br/>
-            
             <label for="cloud9">
-                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()">
-                Cloud 9 @ $200
+                <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+                Cloud 9 @ $300
+            </label>
+            
+            <br/>
+            
+            <label for="aws">
+                <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()">
+                Amazon Web Services @ $150
+            </label>
+            
+            <br/>
+            
+            <label for="gmail">
+                <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()">
+                Gmail @ $200
             </label>
             
             <br/>
@@ -51,17 +51,15 @@
             <br/>
             
             <label for="discount">
-                Discount:
-                <br/>
-                <input type="text" id="discount" name="total" value="0.00" class="inline" readonly/>
+                Discount @ 5%:
+                <input type="text" id="discount" value="0.00" readonly/>
             </label>
             
             <br/>
             
             <label for="vat">
                 VAT:
-                <br/>
-                <input type="text" id="vat" name="vat" value="0.00" class="inline" readonly/>
+                <input type="text" id="vat" value="0.00" readonly/>
             </label>
             
             <br/>
