@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-    
     <head>
         <title>Select Product</title>
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
     </head>
+    
     <body>
         <h4>Select a product</h4>
         
@@ -75,6 +75,7 @@
         
         </form>
         <br/>
+        
         <button onClick="calcSub()">Calculate Cost</button>
         <a rule="button" href="Ebus1.php">Clear Choice</a>
         
