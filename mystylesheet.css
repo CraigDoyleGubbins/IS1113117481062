@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background-color: #37474f;
+    background-color: #4323;
     color: #ffffff;
 }
 
@@ -31,8 +31,5 @@ body{
     margin: auto;
 }
 
-a{
-    font-family: Arial;
-    text-decoration: none;
-    color: #ffffff;
-}
+
+

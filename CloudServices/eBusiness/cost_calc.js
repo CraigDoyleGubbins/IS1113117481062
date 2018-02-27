@@ -27,7 +27,6 @@ function calcDisVatTotal(argSubTotal){
     var num1, discountAmt, vatAmt, totalPrice;
     
     discountAmt = argSubTotal * 0.05;
-    document.getElementById("discount").value = discountAmt;
     
     num1 = argSubTotal - discountAmt;
     vatAmt = num1 * .1;

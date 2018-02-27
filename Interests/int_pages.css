@@ -3,14 +3,43 @@
     color: white;
 }
 
+.logo {
+    width: 20%;
+    height: auto;
+    padding: 20px;
+}
+
 #section1{
-    background-color: rgb(238, 0, 90);
+    background: no-repeat center fixed;
+    background-color: #FFFC00;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background: no-repeat center fixed;
+    background-color: #4267b2;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background: no-repeat center fixed;
+    background-color: #333;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #123456;
 }

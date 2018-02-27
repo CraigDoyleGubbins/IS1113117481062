@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 1.3vw;
+}
+
+h2 {
+    font-size: 2.4vw;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
