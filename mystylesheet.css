@@ -1,35 +1,18 @@
 body{
-    min-height: 100vh;
-    background-color: #4323;
+    background-color: #FFE6CC;
     color: #ffffff;
-}
-
-.header {
-    height: 25vh;
-}
-
-.footer {
-    height: 25vh;
-}
-
-.mainheading{
-    height: 15vh;
-    text-align: center;
+    padding: 10px;
     font-family: Arial;
 }
 
-.button{
-    overflow: hidden;
-    background-color: #5c6bc0;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
+header{
+    padding: 30px;
     text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    width: 120px;
-    margin: auto;
+    background-color: #3D53F4;
 }
 
-
-
+.card{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: red;
+}

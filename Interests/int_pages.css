@@ -1,3 +1,18 @@
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+    padding: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
 .section{
     text-align: center;
     color: white;
@@ -24,22 +39,37 @@
     background-color: #333;
 }
 
-.navigation li {
-    float: left;
+.navigation {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
 }
 
-.navigation li a {
+.navigation a {
+    float: left;
     display: block;
-    color: white;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.navigation li a:hover {
-    background-color: #111;
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-.active {
-    background-color: #123456;
+.navigation .active {
+    background-color: blue;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 5px;
 }

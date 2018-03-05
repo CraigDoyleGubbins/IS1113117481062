@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Work</title>
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
         <!--Adding Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
@@ -12,13 +11,81 @@
 
     </head>
     <body>
-        <h1 class="mainheading">Work Experience</h1>
+        <div class="container">
+            
+            <header class="blog-header py-3">
+              
+              <div class="row flex-nowrap justify-content-between align-items-center">
+                <a class="text-dark" style="font-family: Times New Roman; font-size:2.25rem" href="#">Curriculum Vitae</a>
+              </div>
+              
+              <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-between">
+                  <a class="btn btn-primary" href="cv_page1.html">Personal Details</a>
+                  <a class="btn btn-primary" href="cv_page2.html">Educational Details</a>
+                  <a class="btn btn-outline-primary" href="cv_page3.html">Work Experience</a>
+                  <a class="btn btn-warning" href="../homepage.html">Go Home</a>
+                </nav>
+              </div>
+              
+            </header>
         
-        <p><strong>Company:</strong>Justice League of America</p>
-        <p><strong>Job Title:</strong>Vigilante</p>
-        <p><strong>Year:</strong>1961-Present</p>
+            <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+              <div class="px-0">
+                <h1 class="display-4 font-italic">Work Experience</h1>
+              </div>
+              <p class="lead my-1">
+                Craig Doyle Gubbins
+              </p>
+            </div>
         
-        <a href="cv_page2.html" class="btn btn-dark">Back</a>
-        <a href="../homepage.html" class="btn btn-dark" style="float: right;">Home</a>
+            <div class="card">
+              <img class="card-img-top" src="images/bar.jpg" alt="bar">
+              <div class="card-body">
+                <strong class="d-inline-block mb-2 text-primary">Part-Time Bar Work</strong>
+                <h5 class="card-title">The Anchor</h5>
+                <p class="card-text">
+                    <strong>Period of Employment:</strong> Summer 2017
+                    <br/>
+                    <strong>Job Title:</strong> Bar-back
+                    <br/>
+                    <strong>Hours:</strong> ~14 per weekend
+                    <br/>
+                    <strong>Description:</strong> During the summer of 2017, I worked weekends in
+                    The Anchor as a bar-back, where I had the responsibility of stocking the bar 
+                    with drinks and ice, changing kegs and occasionally serving drinks.
+                </p>
+              </div>
+            </div>
+            
+            <br/>
+            
+            <div class="card">
+              <img class="card-img-top" src="images/petrol.jpg" alt="petrol station">
+              <div class="card-body">
+                <strong class="d-inline-block mb-2 text-primary">Part-Time Sales Work</strong>
+                <h5 class="card-title">Topaz</h5>
+                <p class="card-test">
+                    <strong>Period of Employment:</strong> October 2017 - February 2018
+                    <br/>
+                    <strong>Job Title:</strong> Shop Assistant
+                    <br/>
+                    <strong>Hours:</strong> ~16 per week
+                    <br/>
+                    <strong>Description:</strong> I worked part-time in Topaz, Model Farm Rd
+                    as a shop assistant. As I'm also studying in college, I worked a relatively
+                    small number of hours. I had the responsibility of serving customers, stocking
+                    shelves and cleaning.
+                </p>
+              </div>
+            </div>
+            
+          <br/>
+            
+          <a href="cv_page2.html" class="btn btn-dark">Back</a>
+          <a href="../homepage.html" class="btn btn-dark" style="float: right;">Home</a>
+            
+        </div>
+        
     </body>
 </html>

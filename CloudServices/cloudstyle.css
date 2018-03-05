@@ -9,8 +9,9 @@ body {
 
 .column {
     float: left;
-    width: 50%;
+    width: 24%;
     text-align: center;
+    padding: 0.5%;
 }
 
 h1 {
@@ -18,7 +19,11 @@ h1 {
 }
 
 p {
+    border: 1px solid black;
+    height: 100%;
+    border-radius: 8px;
     font-size: 1.3vw;
+    padding: 5px;
 }
 
 h2 {
