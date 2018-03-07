@@ -176,4 +176,27 @@ button:disabled {
     background-color: white;
     padding: 10px;
     border-radius: 8px;
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto;
+    width: 60%;
+    max-width: 380px;
+}
+
+.leaveshop {
+    background-color: #FE6802;
+}
+
+
+.leaveshop:hover {
+    background-color: #DE5500;
+}
+
+.returnshop {
+    background-color: #3D53F4;
+}
+
+.returnshop:hover {
+    background-color: #142CE5;
 }

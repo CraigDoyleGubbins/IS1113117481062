@@ -73,3 +73,8 @@ header {
 img {
     border-radius: 5px;
 }
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+}

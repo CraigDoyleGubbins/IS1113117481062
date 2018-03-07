@@ -7,7 +7,7 @@
         
         <meta charset= "utf-8"/>
         
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
@@ -59,7 +59,7 @@
             
             <h3>Totals:</h3>
             
-            <div style="content: ; display: table; clear: both; margin: auto">
+            <div style="content: ''; display:table; clear:both; margin:auto;">
             
                 <div style="float:left; width:70%;">
                     <div class="shopcard columns">
@@ -99,7 +99,7 @@
                     <br>
                     <br>
                     <br>
-                    <a rule="button" href="eBus1.php" class="button cancel">Clear</a>
+                    <a href="eBus1.php" class="button cancel">Clear</a>
                 </div>
             </div>
             

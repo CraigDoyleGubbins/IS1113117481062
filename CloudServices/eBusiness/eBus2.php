@@ -13,7 +13,7 @@ session_start();
         <meta charset= "utf-8"/>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script src="ebus2_validator.js"></script>
     </head>
     
     <body>
@@ -28,7 +28,7 @@ session_start();
             
             <h3>Please enter your payment details:</h3>
             
-            <div class="shopcard" style="content:; display:table; clear:both; width:60%; line-height:28px; margin-right: 15%; margin-left:15%;">
+            <div class="shopcard" style="content:''; display:table; clear:both; width:60%; line-height:28px; margin-right: 15%; margin-left:15%;">
                 
                 <div style="float:left; width:40%">
                     <label for="user_name">Name:</label>
@@ -39,11 +39,11 @@ session_start();
                 </div>
                 
                 <div style="float:right; width: 60%">
-                    <input type="text" id="user_name" placeholder="as appears on card">
+                    <input type="text" id="user_name" name="user_name" placeholder="as appears on card">
                     <br>
-                    <input type="text" id="email" placeholder="someone@example.com">
+                    <input type="text" id="email" name="email" placeholder="someone@example.com">
                     <br>
-                    <input type="password" id="user_pin" placeholder="1234" maxlength="4">
+                    <input type="password" id="user_pin" name="user_pin" placeholder="1234" maxlength="4">
                     <br>
                 </div>
                 
@@ -65,8 +65,6 @@ session_start();
         $_SESSION["discount"] = $_POST["discount"];
         $_SESSION["vat"] = $_POST["vat"];
         $_SESSION["total"] = $_POST["total"];
-        $_SESSION["user_name"] = $_POST["user_name"];
-        $_SESSION["email"] = $_POST["email"];
         ?>
     </body>
 </html>

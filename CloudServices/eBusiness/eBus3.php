@@ -23,62 +23,60 @@ session_start();
         
         <h3>Order Confirmed</h3>
         
-        <div class="shopcard receipt" style="text-align: center">
+        <div class="shopcard" style="text-align: center">
             <p>
-                Thank you, <?php echo $_SESSION["user_name"] ?>.
+                Thank you, <?php echo $_POST["user_name"] ?>.
                 <br>
-                Total: &euro;<?php echo $_SESSION["total"] ?>
-                <?php echo "hello" ?>
+                Your total is: &euro;<?php echo $_SESSION["total"] ?>.
             </p>
             
             <div class="breakdown">
                 
-                <div style="float:left; width: 40%;line-height:22px">
-                    <label for="subtotal">
+                <div style="float:left; width: 55%">
+                    <p>
                         Subtotal:
-                    </label>
-                    <br>
-                    <label for="discount">
+                    </p>
+                    <p>
                         Discount @ 5%:
-                    </label>
-                    <br>
-                    <label for="vat">
+                    </p>
+                    <p>
                         VAT:
-                    </label>
-                    <br>
-                    <label for="total">
+                    </p>
+                    <p>
                         Total:
-                    </label>
+                    </p>
                 </div>
                         
                 <div style="float:right; width: 15%; margin-right: 20%">
-                    <input type="text" id="subtotal" value="0.00sdfghjhgfcghj" name="subtotal" style="width:100%" readonly/>
-                    <br>
-                    <input type="text" id="discount" value="0.00" name="discount" style="width:100%" readonly/>
-                    <br>
-                    <input type="text" id="vat" value="0.00" name="vat" style="width:100%" readonly/>
-                    <br>
-                    <input type="text" id="total" value="0.00" name="total" style="width:100%" readonly/>
+                    <p>
+                        &euro;<?php echo $_SESSION["subtotal"] ?>
+                    </p>
+                    <p>
+                        &euro;<?php echo $_SESSION["discount"] ?>
+                    </p>
+                    <p>
+                        &euro;<?php echo $_SESSION["vat"] ?>
+                    </p>
+                    <p>
+                        &euro;<?php echo $_SESSION["total"] ?>
+                    </p>
                 </div>
                 
             </div>
             
-            <?php
-                echo (substr_replace($_SESSION["email"] - strchr($_SESSION["email"], "@"), "********", 1));
-            ?>
+            <p>An email has been sent to <?php echo $_SESSION["email"] ?></p>
             
+            <a class="button returnshop" href="../VendorHomepage.html">Home</a>
+            <a class="button leaveshop" href="../../homepage.html">Leave</a>
             
-            <p>An email will be sent to <?php echo substr_replace() ?></p>
             
         </div>
-        
-        
-        
         
         <?php
         //session variables
         $_SESSION["user_name"] = $_POST["user_name"];
         $_SESSION["email"] = $_POST["email"];
         ?>
+        
     </body>
 </html>
