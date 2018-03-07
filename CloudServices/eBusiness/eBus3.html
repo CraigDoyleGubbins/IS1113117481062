@@ -1,14 +1,7 @@
-<?php
-//start php session
-session_start();
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>Receipt</title>
-        
-        <meta charset= "utf-8"/>
         
         <link rel="stylesheet" href="../shop_style.css" type="text/css"/>
         
@@ -28,7 +21,6 @@ session_start();
                 Thank you, <?php echo $_SESSION["user_name"] ?>.
                 <br>
                 Total: &euro;<?php echo $_SESSION["total"] ?>
-                <?php echo "hello" ?>
             </p>
             
             <div class="breakdown">
@@ -75,10 +67,6 @@ session_start();
         
         
         
-        <?php
-        //session variables
-        $_SESSION["user_name"] = $_POST["user_name"];
-        $_SESSION["email"] = $_POST["email"];
-        ?>
+        
     </body>
 </html>
