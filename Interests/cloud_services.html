@@ -9,62 +9,57 @@
         <meta charset="utf-8"/>
         
         <!--Page Pilling-->
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
         
-        
-        
-        
-        <link rel="stylesheet" href="int_pages.css" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="cloud_servicesstyle.css"/>
         
         <script>
            $(document).ready(function() {
             	$('#pagepiling').pagepiling({
+            	    anchors: ['page1', 'page2', 'page3']
             	});
         	});
 	    </script>
         
-        <style>
-            body {
-                font-family: Arial;
-                text-decoration:none;
-            }
-    
-            h1 {
-                font-size: 50px;
-            }
-    
-            p {
-                font-size: 20px;
-                padding: 15px;
-            }
-            </style>
     </head>
     
     <body>
-	    
-	    <div id="pagepiling">
+        
+	    <div id="pagepiling" style="overflow: hidden; touch-action: none;">
 	        
-            <div class="section" id="section1">
+            <div class="section" id="section1" data-anchor="page1">
                 <img class="logo" src="InterestsPics/snapchat-logo.jpg" alt="snapchat logo">
                 <h1>Snapchat</h1>
-                <p>Snapchat is an Android and iOS social media application, where users send and recieve photographs that disappear soon after being viewed. Snap - Snapchat's parent company - has a $2-billion 5-year contract with Google. This makes them Google's largest customer of their cloud platform. Snapchat may be making use of Google's Cloud Storage, App Engine, Compute Engine, etc.</p>
+                <p>Snapchat is an Android and iOS social media application, where users send and recieve photographs
+                that disappear soon after being viewed. Snap - Snapchat's parent company - has a $2-billion 5-year 
+                contract with Google. This makes them Google's largest customer of their cloud platform. Snapchat 
+                may be making use of Google's Cloud Storage, App Engine, Compute Engine, etc.</p>
             </div>
             
-            <div class="section" id="section2">
+            <div class="section" id="section2" data-anchor="page2">
                 <img class="logo" src="InterestsPics/facebook-logo.png" alt="facebook logo">
                 <h1>Facebook</h1> 
-                <p>As the world's largest social media platform, with over 2 billion monthly active users and several mobile and web applications, it's easier for Facebook to have its own cloud servers. They have several datacenters in the US and one in Sweden. Here, they store photos, posts, conversations, etc and they mine data.</p>
+                <p>As the world's largest social media platform, with over 2 billion monthly active users and several
+                mobile and web applications, it's easier for Facebook to have its own cloud servers. They have
+                several datacenters in the US and one in Sweden. Here, they store photos, posts, conversations, etc
+                and they mine data.</p>
             </div>
             
-            <div class="section" id="section3">
-                <img class="logo" src="InterestsPics/netflix-logo.png" alt="netflix logo">
+            <div class="section" id="section3" data-anchor="page3">
+                <img class="logo" src="InterestsPics/netflix-logo.png" alt="netflix logo" style="width:35%">
                 <h1>Netflix</h1> 
-                <p>Netflix relies on Amazon Web Services (AWS) for all of its scalable computing and storage needs - their business logic, user analytics, recommendations, etc. that make up the Netflix application, along with their huge selection of on-demand movies and TV series. Netflix took 8 years to migrate to the cloud as they had to rebuild their systems in order to do so.</p>
-                <a href="../homepage.html">Home</a>
+                <p>Netflix relies on Amazon Web Services (AWS) for all of its scalable computing and storage needs
+                - their business logic, user analytics, recommendations, etc. that make up the Netflix application,
+                along with their huge selection of on-demand movies and TV series. Netflix took 8 years to migrate
+                to the cloud as they had to rebuild their systems in order to do so.</p>
+                
+                <a class="button" href="../homepage.html">Back to Sports</a>
+                <a class="button" href="../homepage.html">Homepage</a>
             </div>
         
         </div>
+        
     </body>
 </html>
