@@ -50,11 +50,12 @@ session_start();
             </div>
             <br>
             
-            <a class="button calculate" onClick="validateDetails()" style="margin-left:42% ;margin-right:42%;">Validate</a>
-            <br>
-            <br>
-            <button type="submit" class="button add" id="btnPurchase" style="margin-left:35% ;margin-right:35%;" disabled>Proceed with Purchase</button>
-            
+            <div style="text-align:center">
+                <a class="button calculate" onClick="validateDetails()">Validate</a>
+                <br>
+                <br>
+                <button type="submit" class="button add" id="btnPurchase" disabled>Proceed with Purchase</button>
+            </div>
             <br>
             
         </form>

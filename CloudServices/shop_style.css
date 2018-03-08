@@ -143,6 +143,7 @@ input[type=text], input[type=password] {
 
 .calculate {
     background-color: #2196F3;
+    cursor:pointer;
 }
 
 .calculate:hover {
@@ -151,6 +152,7 @@ input[type=text], input[type=password] {
 
 .cancel {
     background-color: #f44300;
+    cursor:pointer;
 }
 
 .cancel:hover {
@@ -186,6 +188,7 @@ button:disabled {
 
 .leaveshop {
     background-color: #FE6802;
+    cursor:pointer;
 }
 
 
@@ -195,6 +198,7 @@ button:disabled {
 
 .returnshop {
     background-color: #3D53F4;
+    cursor:pointer;
 }
 
 .returnshop:hover {
