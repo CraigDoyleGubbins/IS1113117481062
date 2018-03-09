@@ -3,6 +3,8 @@
     <head>
         <title>BIS Store</title>
         
+        <link rel="icon" href="../code.ico" type="image/x-icon">
+        
         <link rel="stylesheet" href="../shop_style.css" type="text/css"/>
         
         <meta charset= "utf-8"/>

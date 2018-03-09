@@ -8,6 +8,8 @@ session_start();
     <head>
         <title>Receipt</title>
         
+        <link rel="icon" href="../code.ico" type="image/x-icon">
+        
         <meta charset= "utf-8"/>
         
         <link rel="stylesheet" href="../shop_style.css" type="text/css"/>
